@@ -25,3 +25,18 @@ Unlike spring, we don't need to use the @Configuration and @Bean for the depende
 We need both UserDTO and User Entity
 UserDTO - dealing with the client requests.
 UserEntity - dealing with the database persistence.
+
+To access the embedded server information, we can create logs.
+need to add following things to application.properties
+- logging.file.name=logs/spring-boot-app.log
+- logging.level.org.springframework.web=DEBUG
+
+To analyse a .jar file => jar tf jar-name.jar
+
+Todo: 
+- need to add formatting 
+- need to add the swagger doc
+
+
+
+
